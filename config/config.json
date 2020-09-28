@@ -1,12 +1,12 @@
 {
   "development": {
-    "use_env_variable": "DATABASE_URL"
+    "use_env_variable": "postgres://postgres:abc1122@localhost:5433/postgres"
   },
   "test": {
-    "username": "waiyaki",
-    "password": null,
+    "username": "usr1",
+    "password": "pwd1!@#$",
     "database": "todos-test",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "port": 5432,
     "dialect": "postgres"
   }
